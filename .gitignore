@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtualenv
+venv/
+.venv/
+
+# Env & secrets
+.env
+*.key
+*.pem
+
+# IDE 
+.idea/
+.vscode/
+
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+
+
