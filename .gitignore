@@ -8,7 +8,10 @@ venv/
 .venv/
 
 # Env & secrets
+# ignore real secrets
 .env
+# but DO track the template
+!.env.example
 *.key
 *.pem
 
