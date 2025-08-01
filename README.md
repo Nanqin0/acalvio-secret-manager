@@ -120,12 +120,12 @@ curl http://localhost:8000/docs
 # Create a secret using：
 curl -X POST http://localhost:8000/vault/secret/create/ \
   -H "Content-Type: application/json" \
-  -d '{"secret":"cGFzc3dvcmQxMjM="}' #"echo -n "password123" | base64
+  -d '{"secret":"cGFzc3dvcmQxMjM="}' # echo -n "password123" | base64
 
 # Retrieve the secret:
 curl -X POST http://localhost:8000/vault/secret/fetch \
   -H "Content-Type: application/json" \
-  -d '{"secret_id": "<secret_id>"}'
+  -d '{"secret_id": "<secret_id>"}'  # echo "cGFzc3dvcmQxMjM=' | base64 -d
 ```
 
 **Service Endpoints:**
