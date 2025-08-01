@@ -77,7 +77,7 @@ secret-manager/
 ### 1. **Clone Repository**
 ```bash
 git clone <repository-url>
-cd secret_manager
+cd artillex-secret-manager
 ```
 
 ### 2. **Initialize Docker Swarm**
