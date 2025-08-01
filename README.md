@@ -172,7 +172,7 @@ curl -X POST http://localhost:8000/vault/secret/fetch \
 pytest tests/
 ```
 
-##🚀Scaling & Maintenance
+## 🚀Scaling & Maintenance
 ```bash
 # Scale
  docker service scale secret-manager_secret-manager=5
