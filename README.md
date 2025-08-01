@@ -185,13 +185,13 @@ pytest tests/
 
 ## 🔧 Troubleshooting
 
-** Check service status:**
+Check service status:
 
 ```bash
 docker service logs secret-manager_secret-manager
 ```
 
-** MongoDB connectivity:**
+MongoDB connectivity:
 ```bash
 docker service logs secret-manager_mongodb
 ```
