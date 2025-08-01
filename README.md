@@ -105,11 +105,11 @@ export MASTER_KEY=$(python3 -c "import secrets, base64; print(base64.b64encode(s
 ### 5. **Deploy to Swarm**
 ```bash
 # Deploy the stack
-docker stack deploy -c stack.yml secret-manager
+docker stack deploy -c stack.yml secretmgr
 
 # Check deployment status
 docker service ls
-docker service ps secret-manager_secret-manager
+docker service ps secretmgr_api
 ```
 
 ### 6. **Demonstrate API**
